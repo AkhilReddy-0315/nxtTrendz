@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+.Home-con {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.inner-con {
+  padding: 10px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.con1 {
+  width: 40vw;
+}
+
+.clothes-img {
+  width: 35vw;
+}
+
+.shop-button {
+  width: 100px;
+  border: none;
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #0b69ff;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 576px) {
+  .Home-con {
+    align-items: center;
+  }
+  .inner-con {
+    display: flex;
+    flex-direction: column;
+  }
+  .con1 {
+    width: 80vw;
+    order: 1;
+  }
+
+  .clothes-img {
+    width: 80vw;
+    height: 200px;
+  }
+}

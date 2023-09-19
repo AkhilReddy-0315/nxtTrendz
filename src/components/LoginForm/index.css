@@ -1,0 +1,146 @@
+/* Write your CSS code here */
+.loginForm-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 80vw;
+  font-family: Roboto;
+}
+
+.website-login-img {
+  width: 40vw;
+}
+
+.form-con {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-logo {
+  height: 50px;
+  width: 13vw;
+}
+
+.login-user-con {
+  width: 23vw;
+  margin: 10px;
+}
+
+.login-pass-con {
+  width: 23vw;
+  margin: 10px;
+}
+
+.login-label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login-input {
+  width: 23vw;
+  border: none;
+  outline-color: #1e293b;
+  background-color: #d7dfe9;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 23vw;
+  border: none;
+  text-align: center;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: #0b69ff;
+  color: #fff;
+  margin: 15px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.error-text {
+  color: #ff0b37;
+  font-size: 10px;
+  width: 23vw;
+  margin-top: 3px;
+}
+
+@media (max-width: 576px) {
+  .loginForm-con {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+  }
+
+  .website-login-img {
+    width: 80vw;
+    margin-bottom: 20px;
+  }
+
+  .form-con {
+    width: 80vw;
+  }
+
+  .form-logo {
+    height: 50px;
+    width: 40vw;
+  }
+
+  .login-user-con {
+    width: 63vw;
+    margin: 10px;
+  }
+
+  .login-pass-con {
+    width: 63vw;
+    margin: 10px;
+  }
+
+  .login-label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .login-input {
+    width: 63vw;
+    border: none;
+    outline-color: #1e293b;
+    background-color: #d7dfe9;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+
+  .login-button {
+    width: 63vw;
+    border: none;
+    text-align: center;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #0b69ff;
+    color: #fff;
+    margin: 15px;
+    cursor: pointer;
+    margin-bottom: 0px;
+  }
+
+  .error-text {
+    color: #ff0b37;
+    font-size: 10px;
+    width: 23vw;
+    margin-top: 3px;
+  }
+}
